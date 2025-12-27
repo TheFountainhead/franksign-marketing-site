@@ -82,32 +82,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="hidden lg:flex items-center justify-center">
-              <div className="w-full max-w-md bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl p-8 shadow-lg">
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 bg-black rounded-lg flex items-center justify-center">
-                      <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                      </svg>
-                    </div>
-                    <div>
-                      <div className="font-semibold text-gray-900">Kontrakt.pdf</div>
-                      <div className="text-sm text-gray-500">Klar til signering</div>
-                    </div>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-                      <CheckIcon className="w-5 h-5 text-green-500" />
-                      <span className="text-sm text-gray-700">Anders Jensen - Signeret</span>
-                    </div>
-                    <div className="flex items-center gap-3 p-3 bg-yellow-50 rounded-lg">
-                      <div className="w-5 h-5 rounded-full border-2 border-yellow-400"></div>
-                      <span className="text-sm text-gray-700">Maria Nielsen - Afventer</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="flex items-center justify-center mt-12 lg:mt-0">
+              <img src="/images/hero-document.png" alt="FrankSign e-signatur" className="w-full max-w-lg h-auto" />
             </div>
           </div>
         </div>
@@ -160,13 +136,13 @@ export default function Home() {
       {/* Social Proof - Kundelogoer */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-gray-500 mb-8">Betroet af +100 danske virksomheder</p>
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60 grayscale">
-            <div className="text-xl font-bold text-gray-400">Kunde 1</div>
-            <div className="text-xl font-bold text-gray-400">Kunde 2</div>
-            <div className="text-xl font-bold text-gray-400">Kunde 3</div>
-            <div className="text-xl font-bold text-gray-400">Kunde 4</div>
-            <div className="text-xl font-bold text-gray-400">Kunde 5</div>
+          <p className="text-center text-gray-500 mb-8">Betroet af danske virksomheder</p>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+            <img src="/images/logos/dannebrog.png" alt="Dannebrog Invest" className="h-8 w-auto opacity-70 hover:opacity-100 transition" />
+            <img src="/images/logos/draupnir.png" alt="Draupnir Invest" className="h-8 w-auto opacity-70 hover:opacity-100 transition" />
+            <img src="/images/logos/f10.png" alt="F10 Finans" className="h-8 w-auto opacity-70 hover:opacity-100 transition" />
+            <img src="/images/logos/unikformue.png" alt="Unik Formue" className="h-8 w-auto opacity-70 hover:opacity-100 transition" />
+            <img src="/images/logos/verdi.svg" alt="Verdi" className="h-8 w-auto opacity-70 hover:opacity-100 transition" />
           </div>
         </div>
       </section>
